@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-streets",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A 3D web-based restaurant management sim inspired by Restaurant Streets.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "three": "^0.164.1",
+    "howler": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.11",
+    "@types/node": "^20.11.0",
+    "@types/three": "^0.164.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0"
+  }
+}
